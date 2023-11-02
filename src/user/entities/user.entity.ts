@@ -1,6 +1,6 @@
 import { IsEnum, MaxLength, MinLength } from "class-validator";
 import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
-import { Role } from "../role/role.enum";
+import { Role } from "../../auth/role/role.enum";
 
 @Entity()
 export class User {
